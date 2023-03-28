@@ -24,10 +24,10 @@
                     <li class="list-dropdown">
                         <a class="nav-tab" onclick="toggle_dropdown()">COMMITTEE</a>
                         <div id="dropdown1">
-                            <a  href="">Link 1</a>
-                            <a  href="">Link 2mc mn</a>
-                            <a  href="">Link 2mc mn</a>
-                            <a  href="">Link 2mc mn</a>
+                            <a  href="committee.html">Organising Committee</a>
+                            <a  href="tpc.html">Technical Program Committee</a>
+                            <a  href="nationaladvisory.html">National Advisory Committee</a>
+                            <a  href="internationaladvisory.html">International Advisory Committee</a>
                         </div>
                     </li>
                     <span id="tabslide">
@@ -81,22 +81,6 @@
         </div>
         <p class="rights">ConferenceWorld | All Rights Reserved | 2023.</p>
 </section>
-
-<!-- <section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus
-    purus.</p>
-    <div class="icons">
-    
-    <i class="fa fa-facebook"></i>
-    
-    <i class="fa fa-twitter"></i>
-    
-    <i class="fa fa-instagram"></i>
-    
-    <i class="fa fa-linkedin"></i>
-    </div>
-</section> -->
 </body>
 
 <!-- JavaScript for NavBar -->
@@ -109,7 +93,7 @@
         navLinks.style.right="0";
     }
     function hideMenu(){
-        navLinks.style.right="-200px";
+        navLinks.style.right="-250px";
     }
     function toggle_dropdown(){
         var navdropdown=document.getElementById("dropdown1");
@@ -118,7 +102,7 @@
         navdropdown.style.display = "none";
         tabslider.style.top="0px";
     } else {
-        tabslider.style.top="100px";
+        tabslider.style.top="130px";
         navdropdown.style.display = "block";
     }
 }
