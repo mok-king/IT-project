@@ -338,7 +338,7 @@ h3{
 #dropdown1{
     display: none;
     position: absolute;
-    width: 100%;
+    width: 120%;
     text-align: center;
     margin-top: 2px;
     z-index: 1;
