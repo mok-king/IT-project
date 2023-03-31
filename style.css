@@ -371,3 +371,12 @@ h3{
         background-color: rgba(0, 0, 0, 0.2);
     }
 }
+       #right{
+            text-align:center;
+            border:5px;
+            color:black;
+            float:center;
+            width:100%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
